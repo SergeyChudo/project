@@ -1,0 +1,70 @@
+*{
+ font-family: "Montserrat", serif;
+  
+}
+.container{
+    max-width: 1360px;
+    width: 100%;
+    margin: auto;
+}
+.header_block, .navigation,.promo_block{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header_block{
+    margin-top: 52px;
+    margin-bottom: 100px;
+}
+.navigation{
+    width: 700px;
+}
+.link_header{
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+    text-decoration: none;
+   }
+.button_header{
+    background: hsl(216, 64%, 65%);
+    border-radius: 300px;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    color: #fafafa;
+    padding: 16px  60px;
+}  
+.promo_desc{
+    width: 487px;
+}  
+.promo_desc > p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000;
+}
+.button_promo{
+    margin-top: 60px;
+    padding: 16px 60px; 
+    
+}
+.promo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/Fon.png) no-repeat center / 100%;
+    width: 670px;
+    height: 353px;
+    margin-left: auto;
+    margin-right: auto
+}
+/* Блок изделий */
+.promo_img1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1360px;
+    width: 100%;
+    margin: 5%;
+    margin-left: auto;
+    margin-right: auto 
+}
+
